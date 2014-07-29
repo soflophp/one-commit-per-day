@@ -1,0 +1,11 @@
+{
+    "name": "soflophp/one-commit-per-day",
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.3.*",
+        "knplabs/github-api": "1.2.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    }
+}
