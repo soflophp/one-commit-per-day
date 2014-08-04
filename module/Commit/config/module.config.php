@@ -7,7 +7,7 @@ return array(
     ),
     'router' => array(
         'routes' => array(
-            'commit' => array(
+            'commit-index' => array(
                 'type'    => 'Literal',
                 'options' => array(
                     // Change this to something specific to your module
@@ -39,6 +39,18 @@ return array(
                         ),
                     ),
                 ),
+            ),
+        ),
+    ),
+    'navigation' => array(
+        'default' => array(
+            array(
+                'label' => 'Commit',
+                'route' => 'commit-index',
+                'lastmod' => '2014-08-03',
+                'changefreq' => 'monthly',
+                'priority' => '1.0',
+                'order' => '30',
             ),
         ),
     ),
