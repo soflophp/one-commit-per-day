@@ -42,6 +42,18 @@ return array(
             ),
         ),
     ),
+    'navigation' => array(
+        'default' => array(
+            array(
+                'label' => 'Promise',
+                'route' => 'promise-index',
+                'lastmod' => '2014-08-03',
+                'changefreq' => 'monthly',
+                'priority' => '1.0',
+                'order' => '20',
+            ),
+        ),
+    ),
     'view_manager' => array(
         'template_path_stack' => array(
             'Promise' => __DIR__ . '/../view',
